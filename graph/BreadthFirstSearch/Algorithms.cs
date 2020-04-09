@@ -40,7 +40,7 @@ namespace BreadthFirstSearch
 
         public IEnumerable<T> FindShortestPath<T>(Graph<T> graph, T start, T destination)
         {
-            // Dictionary that represents how we can particular node.
+            // Dictionary that represents how algorithm get particular node.
             // E.g. previous[2] = 1 means that we get node '2' through the node 1 
             var previous = new Dictionary<T, T>();
 
